@@ -8,17 +8,24 @@
 
 #backg
 {
-    background-color: rgb(230, 167, 84);
+    background-image: url(brick.jpg);
     height: 2000px;
     margin: auto;
-    width:80%;
-    padding-top: 5px;
-    border-style: solid;
+    width:100%;
+}
+#content
+{
+    background-color: antiquewhite;
+    opacity: 0.1;
+    width: 80%;
+    height:100%;
+    margin: auto;
 }
 .main
 {
+    
     text-align: center;
-    background-color: bisque;
+    background-color: cadetblue;
     height: 50px;
     width: auto;
     border:2px solid ;
@@ -26,25 +33,29 @@
     margin-right: 5px;
     
 }
-    #Lmenu
+
+    #menu
     {
-        position: fixed;
+        
         width: 60%;
         height: 15%;
-        background-color: beige;
+        margin:auto;
+        
     }
-.top
+.slot
 {
+    margin: auto;
+    float: left;
     margin-left: 5px ;
     margin-right: 5px;
     margin-top: 8px;
-    height: 30px;
-    width: 20%;
+    height: 170px;
+    width: 170px;
     background-color: aqua;
     border: 2px solid;
 
 }
-.top:hover
+.slot:hover
 {
     
     height:50px;
@@ -54,22 +65,7 @@
     transition-duration: 1s;
 }
 
-#rside
-{
-    float: right;
-    background-color: rgb(15, 97, 69);
-    height: 97%;
-    width: 40%;
-}
-.picture
-{
-    margin-left: 40%;
-    margin-top: 10px;
-    background-color: antiquewhite;
-    width: 150px;
-    height: 150px;
-    border: solid;
-}
+
 
 .bbar
 {
